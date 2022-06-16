@@ -1,5 +1,5 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
+@import url('./assets/css/reset.css');
+@import url('./assets/css/global.css');
 
 body {
   background-color: var(--primary-color);
@@ -7,7 +7,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url('/assets/images/shrek_bg.jpg');
+  background-image: url('./assets/images/shrek_bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
